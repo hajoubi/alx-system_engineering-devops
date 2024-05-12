@@ -1,0 +1,49 @@
+Title: Unveiling the Magic Behind Typing https://www.google.com in Your Browser and Pressing Enter
+
+Introduction:
+
+Have you ever wondered what happens when you type https://www.google.com in your browser and press enter? The journey that follows this simple action involves various complex steps, including DNS requests, TCP/IP, firewalls, HTTPS/SSL, load balancers, web servers, application servers, and databases. In this blog post, we will dive into the details of each step to unveil the magic behind this seemingly straightforward process.
+
+
+DNS Request:
+
+When you type "https://www.google.com" in your browser's address bar, the first thing that happens is a DNS (Domain Name System) request. The Domain Name System translates human-readable domain names into machine-readable IP addresses. Your computer sends this request to your Internet Service Provider (ISP), which then forwards it to a DNS server. This server checks its database and responds with the corresponding IP address of Google's servers.
+
+
+TCP/IP:
+
+Once your computer has received the IP address from the DNS server, it initiates a TCP/IP (Transmission Control Protocol/Internet Protocol) connection. TCP/IP is a set of rules that govern data transmission over the internet, ensuring reliable and error-free communication between devices. Your browser establishes a TCP connection with Google's servers by sending a SYN packet (a type of network message).
+
+
+Firewall:
+
+Before your request reaches Google's servers, it must pass through any firewalls or security systems in place at your ISP and other intermediate networks. These firewalls examine the packets to ensure they do not contain malicious content or attempts to breach security protocols. If your request is deemed safe, it proceeds to the next step.
+
+
+HTTPS/SSL:
+
+When you type "https://" in the address bar, it indicates that you are using a secure connection (HTTP Secure). This means that all data transmitted between your browser and Google's servers will be encrypted using SSL (Secure Sockets Layer) or TLS (Transport Layer Security) protocols. As a result, any information exchanged remains confidential and cannot be intercepted by unauthorized parties.
+
+
+Load Balancer:
+
+Upon receiving your request, Google's servers use a load balancer to distribute the traffic evenly among multiple servers. This ensures that no single server becomes overloaded while handling numerous requests simultaneously. The load balancer analyzes the incoming requests and directs them to the appropriate server based on factors such as server capacity, geographical proximity, and current workload.
+
+
+Web Server:
+
+The load balancer forwards your request to a web server, which is responsible for responding to HTTP (Hypertext Transfer Protocol) requests from clients like your browser. The web server retrieves the requested resource (in this case, the Google homepage) and sends it back as an HTTP response containing the HTML code, CSS stylesheets, JavaScript files, and other resources necessary to display the page correctly in your browser.
+
+
+Application Server:
+
+In some cases, additional processing may be required before sending the requested resource to the client. This is where an application server comes into play. The application server processes any dynamic content, such as user-specific data or custom scripts, and returns the final HTML code to the web server for transmission to your browser.
+
+
+Database:
+
+While not always involved in every request, databases are crucial components of many websites, including Google's services. Databases store vast amounts of information that can be accessed by both the application server and the client (your browser). For example, when you search for something on Google, the search query is sent to a database where it looks up relevant results, which are then returned to your browser for display.
+
+Conclusion:
+
+In summary, typing https://www.google.com in your browser and pressing enter triggers a series of complex processes involving DNS requests, TCP/IP connections, firewall checks, HTTPS/SSL encryption, load balancing, web servers, application servers, and databases. Each component plays a vital role in ensuring that you can quickly and securely access the content you desire on the internet. So next time you perform this seemingly simple action, take a moment to appreciate the intricate dance of technology that happens behind the scenes!
